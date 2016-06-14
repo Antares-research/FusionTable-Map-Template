@@ -21,7 +21,7 @@
         this.locationColumn = options.locationColumn || "Latitudine";
         
         // appends to all address searches if not present
-        this.locationScope = options.locationScope || "Bertinoro";
+        this.locationScope = options.locationScope || "bertinoro";
 
         // zoom level when map is loaded (bigger is more zoomed in)
         this.defaultZoom = options.defaultZoom || 11; 
