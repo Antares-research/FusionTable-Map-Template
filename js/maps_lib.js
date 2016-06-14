@@ -24,7 +24,7 @@
         this.locationScope = options.locationScope || "Bertinoro";
 
         // zoom level when map is loaded (bigger is more zoomed in)
-        this.defaultZoom = options.defaultZoom || 18; 
+        this.defaultZoom = options.defaultZoom || 13; 
 
         // center that your map defaults to
         this.map_centroid = new google.maps.LatLng(44.14, 12.13);
