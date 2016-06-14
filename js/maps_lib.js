@@ -27,7 +27,7 @@
         this.defaultZoom = options.defaultZoom || 11; 
 
         // center that your map defaults to
-        this.map_centroid = new google.maps.LatLng(options.map_center[0], options.map_center[1]);
+        this.map_centroid = new google.maps.LatLng(44.14, 12.13);
         
         // marker image for your searched address
         if (typeof options.addrMarkerImage !== 'undefined') {
