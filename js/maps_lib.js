@@ -9,7 +9,7 @@
         this.searchRadius = options.searchRadius || 805; //in meters ~ 1/2 mile
 
         // the encrypted Table ID of your Fusion Table (found under File => About)
-        this.fusionTableId = options.fusionTableId || "1dxu_x5ZtmJAM8l2vMTFYV1tY_aEko8_-mP8Ulrmt",
+        this.fusionTableId = options.fusionTableId || "1Z9I5RClAp74NkYawUJ3pZlx8wTikWgId1sQtD0ye",
 
         // Found at https://console.developers.google.com/
         // Important! this key is for demonstration purposes. please register your own.
@@ -165,11 +165,10 @@
         //-----custom filters-----
         var type_column = "type";
 var searchType = type_column + " IN (-1,";
+if ( $("#cbType1").is(':checked')) searchType += "1,";
 if ( $("#cbType1").is(':checked')) searchType += "2,";
-if ( $("#cbType1").is(':checked')) searchType += "3,";
-if ( $("#cbType2").is(':checked')) searchType += "4,";
-if ( $("#cbType1").is(':checked')) searchType += "5,";
-if ( $("#cbType3").is(':checked')) searchType += "8,";
+if ( $("#cbType2").is(':checked')) searchType += "3,";
+if ( $("#cbType1").is(':checked')) searchType += "4,";
 self.whereClause += " AND " + searchType.slice(0, searchType.length - 1) + ")";
         //-----end of custom filters-----
 
