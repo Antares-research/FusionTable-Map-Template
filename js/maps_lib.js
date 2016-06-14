@@ -9,7 +9,7 @@
         this.searchRadius = options.searchRadius || 805; //in meters ~ 1/2 mile
 
         // the encrypted Table ID of your Fusion Table (found under File => About)
-        this.fusionTableId = options.fusionTableId || "1Z9I5RClAp74NkYawUJ3pZlx8wTikWgId1sQtD0ye",
+        this.fusionTableId = options.fusionTableId || "1nI_G8Ty4kv2cAJjJ3lH1YcSs-vCsg1cRYKeoeOlZ",
 
         // Found at https://console.developers.google.com/
         // Important! this key is for demonstration purposes. please register your own.
